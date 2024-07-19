@@ -436,7 +436,7 @@ checked_tasks = {}
 args = parse_arguments()
 cek_task_enable = args.task
 claim_ref_enable = args.reff
-with open('tgwebapp.txt', 'r') as file:
+with open('tgwebapp.txt','tgwebappnew.txt', 'r') as file:
     query_ids = file.read().splitlines()
 while True:
     try:
